@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+
+  header {
+    height: 10vh;
+    padding: 1em;
+  }
+  h1 {
+    height: 10vh;
+    padding: 0.4em;   
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    height: 80vh;
+  }
+}
